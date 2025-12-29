@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Our 1 Month 🤍</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#111111">
+</head>
+
+<body>
+  <header class="hero">
+    <div class="hero__inner">
+      <h1>hi <span id="herName">my love</span> 🤍</h1>
+      <p class="sub">
+        one month of us — and I’m still so so so obsessed with you
+      </p>
+
+      <div class="countdown">
+        <div class="countdown__box">
+          <span id="days">0</span>
+          <small>days together</small>
+        </div>
+        <div class="countdown__box">
+          <span id="hours">0</span>
+          <small>hours</small>
+        </div>
+        <div class="countdown__box">
+          <span id="mins">0</span>
+          <small>mins</small>
+        </div>
+      </div>
+
+      
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="letters">
+      <h2>three little things I love about you</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>your vibe</h3>
+          <p>
+            you make everything feel lighter — even normal days feel like dates with you. I like who I am when I’m with you too, I’m excited for whats more to come
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>your heart</h3>
+          <p>
+            you’re kind even though you're shy to show it. I notice it, I appreciate it, I adore it. Thank you so much for being here for me hehe
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>you're so pretty</h3>
+          <p>
+            I could stare at you for hours in silence at your pretty brown eyes. They pull me in so badly
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>More pictures together please!!</h2>
+      
+
+      <div class="gallery" id="gallery">
+        <!-- Replace these with your own images in /images -->
+        <button class="photo" data-src="images/01.jpg" aria-label="Photo 1">
+          <img src="images/01.jpg" alt="Memory 1">
+        </button>
+        <button class="photo" data-src="images/02.jpg" aria-label="Photo 2">
+          <img src="images/02.jpg" alt="Memory 2">
+        </button>
+        <button class="photo" data-src="images/03.jpg" aria-label="Photo 3">
+          <img src="images/03.jpg" alt="Memory 3">
+        </button>
+        <button class="photo" data-src="images/04.jpg" aria-label="Photo 4">
+          <img src="images/04.jpg" alt="Memory 4">
+        </button>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>A tiny promise</h2>
+      <div class="note">
+        <p>
+          I’ll keep choosing you, keep showing up, and keep making you feel loved - you can rely on me
+        </p>
+        <p class="sign">— <span id="yourName">me</span></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Between us</h2>
+      <button class="btn btn--ghost" id="secretBtn">here</button>
+      <div class="secret" id="secret" hidden>
+        <p id="secretText">
+          I'll protect you from anyone and heal all your wounds, replacing them with good memories instead
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Made with 🤍 • <span id="today"></span></p>
+    </footer>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="closeLightbox" aria-label="Close">✕</button>
+    <img id="lightboxImg" alt="Expanded memory">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
